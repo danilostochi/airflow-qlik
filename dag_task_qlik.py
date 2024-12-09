@@ -95,9 +95,7 @@ with DAG(
 ) as dag:
 
     app_ids = [
-        "f8312e46-92a1-41ae-bae3-931a07aa28f9", # 1.0 Gazin - Extractor Prog Tanks Industry
-        "cc275a31-b484-4cc5-adbf-17f35b73bd86", # 1.1 Gazin - Extractor Balance Est Consumption Industry
-        "54d4dde7-08df-4554-9fe7-12318590bbfe"  # Gazin - Industry Dashboard
+        "54d4dde7-08df-4554-9fe7-12318590bbfe"  # Your Application
     ]
 
     reload_tasks = []
