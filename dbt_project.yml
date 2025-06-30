@@ -18,3 +18,4 @@ clean-targets:
 
 models:
   my_new_project:
+    +generate_schema_name: "dados"
